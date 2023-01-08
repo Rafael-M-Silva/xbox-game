@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+}
+
+header{
+    background-image: url(../img/banner-header-01.png);
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    padding: 16px 0px;
+}
+
+#games{
+    color: white;
+    font-weight: 500;
+}
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #efefefcc;
+}
+#buttons{
+    display: flex;
+    gap: 16px;
+}
+#buttons button{
+    width: 90px;
+    font-size: 15px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    background-color: #3B44F6;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#buttons #login{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+#tittle-header{
+    margin-top: 114px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding-left: 92px;
+}
+
+#tittle-header h1{
+    font-size: 48px;
+    color: white;
+}
+
+#tittle-header p{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 64px;
+    max-width: 417px;
+}
+
+#tittle-header button{
+    width: 162px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background-color: #3B44F6;
+    color: white;
+    font-size: 18px;
+    border: none;
+    font-weight: 300;
+    margin-bottom: 244px;
+    cursor: pointer;
+}
+
+main{
+    background: #F5F4F9;
+}
+
+#whiy-us h1{
+    font-size: 36px;
+    color: #181818;
+}
+
+#whiy-us p{
+    font-size: 18px;
+    max-width: 473px;
+    color: #323232;
+}
+
+#tittle-whiy-us{
+    width: 473px;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 60px;
+}
+
+.cards{
+    width: 916px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards .card{
+    width: 250px;
+    text-align: center;
+}
+
+.cards img{
+    background-color: #D8DAFD;
+    padding: 20px;
+    width: 94px;
+    height: 94px;
+    border-radius: 100px;
+}
+
+.cards p{
+    font-weight: 600;
+    color: #181818;
+}
+
+#genre{
+    margin-top: 70px;
+}
+
+.tittle-genre h2{
+    font-size: 36px;
+    color: #181818;
+    font-weight: 600;
+}
+
+.tittle-genre{
+    width: 1096px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.tittle-genre span{
+    color: #3B44F6;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#genre-image{
+    width: 1096px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#genre-image img{
+    width: 169px;
+    height: 169px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
+    filter: brightness(.3);
+    transition: 0.2s;
+}
+
+.genre-card{
+    position: relative;
+}
+
+.genre-card p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#genre-image img:hover{
+    cursor: pointer;
+    backdrop-filter: black;
+    filter: brightness(.5);
+    color: transparent;
+}
+
+#seller-game{
+    width: 1280px;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+
+
+#seller-game h2{
+    width: 518px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #181818;
+    padding: 10px 96px;
+}
+
+.seller-image img{
+    width: 260px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.best-card-games{
+    background-color:white;
+    width: 262px;
+    border-radius: 8px;
+}
+
+.flex{
+    width: 1096px;
+    margin: auto;
+    display: flex;
+    gap: 16px;
+}
+
+.seller-image h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 16px;
+    margin-bottom: 17px;
+}
+.seller-game-price{
+    display: flex;
+    gap: 28px;
+    padding-left: 17px;
+    margin-bottom: 24px;
+    padding-right: 17px;
+}
+.seller-game-price p{
+    color: #3B44F6;
+}
+
+.seller-off{
+    display: flex;
+}
+
+.seller-off span{
+    color: #FC326F;
+    font-size: 12px;
+    background: #fc326f33;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.seller-off p{
+    color: #7D7D7D;
+    background: #F0F0F0;
+    border-radius: 0 4px 4px 0;
+    padding: 1.5px 10px 1.5px 6px;
+    font-size: 12px;
+}
+
+#free{
+    background: #D8DAFD;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
