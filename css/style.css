@@ -147,6 +147,8 @@ main{
 }
 
 #genre{
+    width: 1096px;
+    margin: auto;
     margin-top: 70px;
 }
 
@@ -173,11 +175,11 @@ main{
 
 #genre-image{
     width: 1096px;
-    margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 24px;
     padding-bottom: 24px;
+    gap: 15px;
 }
 
 #genre-image img{
@@ -213,10 +215,9 @@ main{
 }
 
 #seller-game{
-    width: 1280px;
+    width: 1096px;
     margin: auto;
     padding-top: 40px;
-    
 }
 
 
@@ -225,7 +226,7 @@ main{
     font-size: 36px;
     font-weight: 600;
     color: #181818;
-    padding: 10px 96px;
+    padding-bottom: 24px;
 }
 
 .seller-image img{
