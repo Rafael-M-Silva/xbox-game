@@ -7,7 +7,8 @@
 }
 
 header{
-    background-image: url(../img/banner-header-01.png);
+
+    background-image: linear-gradient(to top, transparent 0%, #0E0123 100%), url(../img/banner-header-01.png);
     background-position: center;
 }
 
@@ -147,9 +148,12 @@ main{
 }
 
 #genre{
+    margin-top: 70px;
+}
+
+section{
     width: 1096px;
     margin: auto;
-    margin-top: 70px;
 }
 
 .tittle-genre h2{
@@ -215,11 +219,8 @@ main{
 }
 
 #seller-game{
-    width: 1096px;
-    margin: auto;
     padding-top: 40px;
 }
-
 
 #seller-game h2{
     width: 518px;
@@ -256,7 +257,7 @@ main{
     padding-left: 16px;
     margin-bottom: 17px;
 }
-.seller-game-price{
+.game-price{
     display: flex;
     gap: 28px;
     padding-left: 17px;
@@ -292,3 +293,31 @@ main{
     padding: 4px 10px;
     border-radius: 4px;
 }
+
+#popular-game .tittle-genre{
+    margin-bottom: 24px;
+}
+
+#popular-game .flex{
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+#coming-soon{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    width: 100vw;
+    background: #0E0E0E;
+
+}
+
+#coming-soon h3{
+    color: #F5F4F9;
+    font-size: 36px;
+    font-weight: 600;
+}
+#coming-center{
+    width: 1096px;
+    margin: auto;
+}
+
