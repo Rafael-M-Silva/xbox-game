@@ -306,9 +306,8 @@ section{
 #coming-soon{
     padding-top: 50px;
     padding-bottom: 80px;
-    width: 100vw;
+    width: 100%;
     background: #0E0E0E;
-
 }
 
 #coming-soon h3{
@@ -319,5 +318,59 @@ section{
 #coming-center{
     width: 1096px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
+#left-coming{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#left-coming img{
+    width: 633px;
+}
+
+#right-coming{
+    margin-top: 84px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.coming-info-button{
+    position: relative;
+}
+.coming-info-button p{
+    width: 342px;
+    position: absolute;
+    font-size: 28px;
+    color: white;
+    bottom: 112px;
+    left: 38px;
+    text-shadow: 0px 4px 5px black;
+}
+
+.coming-info-button-right p{
+    width: 217px;
+    bottom: 95px;
+    font-size: 25px;
+}
+
+.coming-info-button button{
+    position: absolute;
+    bottom: 49px;
+    left: 36px;
+    padding: 9px 16px;
+    background: transparent;
+    border-radius: 8px;
+    color: white;
+    border: #F5F4F9 solid 1px;
+    cursor: pointer;
+}
+
+.coming-info-button-right button{
+    bottom: 31px;
+}
