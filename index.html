@@ -43,6 +43,9 @@
       <button id="back-carrossel"><img src="./assets/button.left.svg" alt=""></button>
       <button id="next-carrossel"><img src="./assets/button.right.svg" alt=""></button>
     </div>
+    <div id="indicator">
+      <img id="indicator-carrossel" src="./assets/indicator-01.svg" alt="">
+    </div>
     <main>
       <section id="whiy-us">
         <div id="tittle-whiy-us">
@@ -107,7 +110,7 @@
         <h2>Best Seller Games</h2>
 
         <div class="flex">
-          <div class="best-card-games">
+          <div id="best-card-01" class="best-card-games">
             <div class="seller-image">
               <img src="./img/seller-image-01.png" alt="" />
               <h3>Minecraft</h3>
@@ -121,7 +124,7 @@
             </div>
           </div>
 
-          <div class="best-card-games">
+          <div id="best-card-02" class="best-card-games">
             <div class="seller-image">
               <img src="./img/seller-image-02.png" alt="" />
               <h3>Asphalt 9: Legends</h3>
@@ -154,7 +157,39 @@
               <p>Rp 440.000</p>
             </div>
           </div>
+
+          <!-- carrossel next -->
+
+          <div id="best-card-05" class="best-card-games card-none">
+            <div class="seller-image">
+              <img src="./img/seller-image-05.png" alt="" />
+              <h3>The Walking Dead</h3>
+            </div>
+            <div class="game-price">
+              <p>Rp 220.000</p>
+            </div>
+          </div>
+
+          <div id="best-card-06" class="best-card-games card-none">
+            <div class="seller-image">
+              <img src="./img/seller-image-06.png" alt="" />
+              <h3>The Wolf Among US</h3>
+            </div>
+            <div class="game-price">
+              <p>Rp 130.000</p>
+              <div class="seller-off">
+                <span>30%</span>
+                <p><s>Rp 190.000</s></p>
+              </div>
+            </div>
+          </div>
         </div>
+        <button class="card-none" id="button-carrossel-seller-game-left">
+          <img src="./assets/button.left.svg" alt="">
+        </button>
+        <button id="button-carrossel-seller-game">
+          <img src="./assets/button.right.svg" alt="">
+        </button>
       </section>
 
       <section id="popular-game">
